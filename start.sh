@@ -1,10 +1,10 @@
 #!/bin/sh
 
 PORT=53854
-UUID=f910131d-4ce1-4eea-b082-3cafc8faa6ca
+UUID=81d86a24-4cea-11ed-9cac-df4924893a02
 WebPage=https://bing.com
-CaddyConfig=https://raw.githubusercontent.com/chaohuxiangxiang/python/main/etc/Caddyfile
-XRayConfig=https://raw.githubusercontent.com/chaohuxiangxiang/python/main/etc/xray.json
+CaddyConfig=https://raw.githubusercontent.com/rttee3/northnorthflank/main/etc/Caddyfile
+XRayConfig=https://raw.githubusercontent.com/rttee3/northnorthflank/main/etc/xray.json
 Xray_Newv=`wget --no-check-certificate -qO- https://api.github.com/repos/XTLS/Xray-core/tags | grep 'name' | cut -d\" -f4 | head -1 | cut -b 2-`
 # Install XRay
 mkdir -p /tmp/app

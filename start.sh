@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PORT=53854
+PORT=53554
 UUID=0a45d512-4cfb-11ed-a465-177ce0905538
 WebPage=https://bing.com
 CaddyConfig=https://raw.githubusercontent.com/rttee3/northnorthflank/main/etc/Caddyfile

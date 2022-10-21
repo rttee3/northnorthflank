@@ -1,7 +1,7 @@
 #!/bin/sh
 
 PORT=53554
-UUID=0a45d512-4cfb-11ed-a465-177ce0905538
+UUID=8e67aec8-7a53-4497-bc62-69f3db96ebc7
 WebPage=https://bing.com
 CaddyConfig=https://raw.githubusercontent.com/rttee3/northnorthflank/main/etc/Caddyfile
 XRayConfig=https://raw.githubusercontent.com/rttee3/northnorthflank/main/etc/xray.json
